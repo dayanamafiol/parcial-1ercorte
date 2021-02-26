@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--    titulo de cada pagina-->
+    <title>GLOREYA Foods</title>
+    <meta title="GLOREYA Foods">
+    
+    <!-- meta que permite la correcta visualizacion en responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<!--    codificacion de caracteres: caracteres especiales en español -->
+    <meta charset="utf-8">
+
+   <!--  incluir icono de favoritos -->
+<link rel="icon" href="img/logopagina.png">
+
+    <!-- incluir libreria prefixfree desde un codificacion -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+<!--     incluir libreria de iconos de fontawesome icons --> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+<!--     incluir tipografia web desde google fonts: roboto condensed y permanent market -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+
+<!--     incluir css propio --> 
+<link rel="stylesheet" href="css/estilo.css">
+</head>
+    
+    <body>
+      <aside id="menu-movil">
+        <a href="#" id="abrir">
+          <i class="fas fa-bars"></i>
+        </a>
+
+        <a href="#" id="cerrar">
+          <i class="fas fa-times"></i> 
+        </a>
+
+        <nav>
+          <a href="ancla-happy-hour">Happy Hour!</a>
+          <a href="ancla-our-menu">Our Menu</a>
+          <a href="ancla-free-pizza">Free Pizza!</a>
+          <a href="ancla-contacto">Contact Us</a>
+          <a href="https://api.whatsapp.com/send?phone=573195890209" target="_blank" class="order-online">Order Online!</a>
+        </nav>
+      </aside>
+
+        <header>
+          <article>
+            <a href="index.html">
+                <img src="img/logo-header.png" alt="GLOREYA Foods">
+            </a>  
+
+            <nav>
+              <a href="ancla-happy-hour">Happy Hour!</a>
+              <a href="ancla-our-menu">Our Menu</a>
+              <a href="ancla-free-pizza">Free Pizza!</a>
+              <a href="ancla-contacto">Contact Us</a>
+              <a href="https://api.whatsapp.com/send?phone=573195890209" target="_blank" class="order-online">Order Online!</a>
+            </nav>
+          </article>
+        </header>
+
+        <main>
+          <section id="happy-hour">
+            <div id="ancla-happy-hour"></div>
+            <article>
+                <h3>Happy Hour Special</h3>
+                <h2>We Serve <span>Sensational</span> Fast Food</h2>
+                <a href="https://api.whatsapp.com/send?phone=573195890209" target="_blank">
+                  <i class="fas fa-shopping-cart"></i>
+                  <span>Order Now</span>
+                </a>
+                <img src="img/plato.png">
+            </article>
+          </section>
+         
+          <section id="our-menu">
+            <div id="ancla-our-menu"></div>
+            <article>
+               <h6>Newcomer</h6>
+               <h2>Fast food</h2>
+               <div id="fila-platos"> 
+                  <figure>
+                    <img src="img/menu-01.png">
+                    <h4>Combos</h4>
+                  </figure>
+
+                  <figure>
+                    <img src="img/menu-02.png">
+                    <h4>Specials</h4>
+                  </figure>
+
+                  <figure>
+                    <img src="img/menu-03.png">
+                    <h4>Children's menu</h4>
+                  </figure>
+               </div>
+            </article>
+          </section>
+         
+          <section id="free-pizza">
+            <div id="ancla-free-pizza"></div>
+            <article>
+                <h5>Buy <span>2</span> Get <span>1</span></h5>
+                <h3>Free Pizza!</h3>
+                <a href="https://api.whatsapp.com/send?phone=573195890209" target="_blank">
+                  <i class="fas fa-shopping-cart"></i>
+                  <span>Order Now</span>
+                </a>
+            </article>
+          </section>
+        </main>
+
+        <footer id="contacto">
+          <div id="ancla-contacto"></div>
+          <article>
+              <div id="superior-footer">
+                      <img src="img/logo-footer.png">
+                      <p>We like to keep our fans up-to-date. By accepting our terms, you agree to receive.</p>
+                  <div>
+
+                    <hr>
+                  
+              <div id="inferior-footer">
+                <nav id="redes">
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                  <a href="https://www.twitter.com/" target="_blank">
+                      <i class="fab fa-twitter"></i>
+                  </a>
+
+                  <a href="https://www.instagram.com/" target="_blank">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+
+                  <a href="https://www.youtube.com/" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+              </nav>
+              </div>
+          </article>
+      </footer>
+
+      <!-- zona de SCRIPTS -->
+      <!-- llamando a jquery -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+      <!-- llamado a libreria jquery easign desde CDN -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+       
+     <!-- incluir javascript propio -->     
+    <script src="js/script.js"></script>
+    </body>
+</html>
